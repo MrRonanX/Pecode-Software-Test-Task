@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3422489D26CCCD4A006CFC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422489C26CCCD4A006CFC05 /* AppDelegate.swift */; };
+		3422489F26CCCD4A006CFC05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */; };
+		342248A126CCCD4A006CFC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248A026CCCD4A006CFC05 /* ViewController.swift */; };
+		342248A426CCCD4A006CFC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342248A226CCCD4A006CFC05 /* Main.storyboard */; };
+		342248A726CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342248A526CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld */; };
+		342248A926CCCD4B006CFC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342248A826CCCD4B006CFC05 /* Assets.xcassets */; };
+		342248AC26CCCD4B006CFC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3422489926CCCD4A006CFC05 /* Pecode Software Test Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pecode Software Test Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3422489C26CCCD4A006CFC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		342248A026CCCD4A006CFC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		342248A326CCCD4A006CFC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342248A626CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pecode_Software_Test_Task.xcdatamodel; sourceTree = "<group>"; };
+		342248A826CCCD4B006CFC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342248AB26CCCD4B006CFC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342248AD26CCCD4B006CFC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3422489626CCCD4A006CFC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3422489026CCCD4A006CFC05 = {
+			isa = PBXGroup;
+			children = (
+				3422489B26CCCD4A006CFC05 /* Pecode Software Test Task */,
+				3422489A26CCCD4A006CFC05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3422489A26CCCD4A006CFC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3422489926CCCD4A006CFC05 /* Pecode Software Test Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3422489B26CCCD4A006CFC05 /* Pecode Software Test Task */ = {
+			isa = PBXGroup;
+			children = (
+				3422489C26CCCD4A006CFC05 /* AppDelegate.swift */,
+				3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */,
+				342248A026CCCD4A006CFC05 /* ViewController.swift */,
+				342248A226CCCD4A006CFC05 /* Main.storyboard */,
+				342248A826CCCD4B006CFC05 /* Assets.xcassets */,
+				342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */,
+				342248AD26CCCD4B006CFC05 /* Info.plist */,
+				342248A526CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld */,
+			);
+			path = "Pecode Software Test Task";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3422489826CCCD4A006CFC05 /* Pecode Software Test Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342248B026CCCD4B006CFC05 /* Build configuration list for PBXNativeTarget "Pecode Software Test Task" */;
+			buildPhases = (
+				3422489526CCCD4A006CFC05 /* Sources */,
+				3422489626CCCD4A006CFC05 /* Frameworks */,
+				3422489726CCCD4A006CFC05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pecode Software Test Task";
+			productName = "Pecode Software Test Task";
+			productReference = 3422489926CCCD4A006CFC05 /* Pecode Software Test Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3422489126CCCD4A006CFC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3422489826CCCD4A006CFC05 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3422489426CCCD4A006CFC05 /* Build configuration list for PBXProject "Pecode Software Test Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3422489026CCCD4A006CFC05;
+			productRefGroup = 3422489A26CCCD4A006CFC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3422489826CCCD4A006CFC05 /* Pecode Software Test Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3422489726CCCD4A006CFC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342248AC26CCCD4B006CFC05 /* LaunchScreen.storyboard in Resources */,
+				342248A926CCCD4B006CFC05 /* Assets.xcassets in Resources */,
+				342248A426CCCD4A006CFC05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3422489526CCCD4A006CFC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342248A126CCCD4A006CFC05 /* ViewController.swift in Sources */,
+				342248A726CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld in Sources */,
+				3422489D26CCCD4A006CFC05 /* AppDelegate.swift in Sources */,
+				3422489F26CCCD4A006CFC05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		342248A226CCCD4A006CFC05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342248A326CCCD4A006CFC05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342248AB26CCCD4B006CFC05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342248AE26CCCD4B006CFC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342248AF26CCCD4B006CFC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342248B126CCCD4B006CFC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34W5S52327;
+				INFOPLIST_FILE = "Pecode Software Test Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kavinskyi.Pecode-Software-Test-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		342248B226CCCD4B006CFC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34W5S52327;
+				INFOPLIST_FILE = "Pecode Software Test Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kavinskyi.Pecode-Software-Test-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3422489426CCCD4A006CFC05 /* Build configuration list for PBXProject "Pecode Software Test Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342248AE26CCCD4B006CFC05 /* Debug */,
+				342248AF26CCCD4B006CFC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342248B026CCCD4B006CFC05 /* Build configuration list for PBXNativeTarget "Pecode Software Test Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342248B126CCCD4B006CFC05 /* Debug */,
+				342248B226CCCD4B006CFC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		342248A526CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				342248A626CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodel */,
+			);
+			currentVersion = 342248A626CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodel */;
+			path = Pecode_Software_Test_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3422489126CCCD4A006CFC05 /* Project object */;
+}
