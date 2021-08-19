@@ -9,23 +9,71 @@
 /* Begin PBXBuildFile section */
 		3422489D26CCCD4A006CFC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422489C26CCCD4A006CFC05 /* AppDelegate.swift */; };
 		3422489F26CCCD4A006CFC05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */; };
-		342248A126CCCD4A006CFC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248A026CCCD4A006CFC05 /* ViewController.swift */; };
-		342248A426CCCD4A006CFC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342248A226CCCD4A006CFC05 /* Main.storyboard */; };
+		342248A126CCCD4A006CFC05 /* ArticlesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248A026CCCD4A006CFC05 /* ArticlesListVC.swift */; };
 		342248A726CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342248A526CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld */; };
 		342248A926CCCD4B006CFC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342248A826CCCD4B006CFC05 /* Assets.xcassets */; };
 		342248AC26CCCD4B006CFC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */; };
+		342248B426CCF503006CFC05 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248B326CCF503006CFC05 /* UIView + ext.swift */; };
+		342248B626CCF803006CFC05 /* PSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248B526CCF803006CFC05 /* PSImageView.swift */; };
+		342248BA26CCF884006CFC05 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248B926CCF884006CFC05 /* Images.swift */; };
+		342248BC26CCF8F0006CFC05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248BB26CCF8F0006CFC05 /* NetworkManager.swift */; };
+		342248C126CCFD36006CFC05 /* PSTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248C026CCFD36006CFC05 /* PSTitleLabel.swift */; };
+		342248C326CCFED2006CFC05 /* PSBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248C226CCFED2006CFC05 /* PSBodyLabel.swift */; };
+		342248C526CD239D006CFC05 /* PSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248C426CD239D006CFC05 /* PSError.swift */; };
+		342248C726CD2485006CFC05 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248C626CD2485006CFC05 /* Date + ext.swift */; };
+		342248CB26CD4AAF006CFC05 /* PSStarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248CA26CD4AAF006CFC05 /* PSStarButton.swift */; };
+		342248CE26CD5382006CFC05 /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248CD26CD5382006CFC05 /* ArticlesModel.swift */; };
+		342248D026CD53A1006CFC05 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248CF26CD53A1006CFC05 /* NewsCell.swift */; };
+		342248DA26CD54C8006CFC05 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248D926CD54C8006CFC05 /* TabBarController.swift */; };
+		342248DE26CD5527006CFC05 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248DD26CD5527006CFC05 /* FavoritesVC.swift */; };
+		342248E126CD5DA3006CFC05 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248E026CD5DA3006CFC05 /* EmptyStateView.swift */; };
+		342248E426CD5E6E006CFC05 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248E326CD5E6E006CFC05 /* DataLoadingVC.swift */; };
+		342248E626CD5EE0006CFC05 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248E526CD5EE0006CFC05 /* BaseVC.swift */; };
+		342248E826CD88FE006CFC05 /* String + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248E726CD88FE006CFC05 /* String + ext.swift */; };
+		342248EA26CE11D0006CFC05 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248E926CE11D0006CFC05 /* CoreDataManager.swift */; };
+		342248EC26CE24A6006CFC05 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248EB26CE24A6006CFC05 /* SearchVC.swift */; };
+		342248EE26CE24EF006CFC05 /* PSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248ED26CE24EF006CFC05 /* PSButton.swift */; };
+		342248F026CE25B2006CFC05 /* UIViewController + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248EF26CE25B2006CFC05 /* UIViewController + ext.swift */; };
+		342248F226CE25DD006CFC05 /* PSAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248F126CE25DD006CFC05 /* PSAlertVC.swift */; };
+		342248F426CE260A006CFC05 /* PSContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248F326CE260A006CFC05 /* PSContainerView.swift */; };
+		342248F726CE2878006CFC05 /* SPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248F626CE2878006CFC05 /* SPTextField.swift */; };
+		342248F926CE402C006CFC05 /* PSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342248F826CE402C006CFC05 /* PSWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3422489926CCCD4A006CFC05 /* Pecode Software Test Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pecode Software Test Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3422489C26CCCD4A006CFC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		342248A026CCCD4A006CFC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		342248A326CCCD4A006CFC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342248A026CCCD4A006CFC05 /* ArticlesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListVC.swift; sourceTree = "<group>"; };
 		342248A626CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pecode_Software_Test_Task.xcdatamodel; sourceTree = "<group>"; };
 		342248A826CCCD4B006CFC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342248AB26CCCD4B006CFC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342248AD26CCCD4B006CFC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342248B326CCF503006CFC05 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
+		342248B526CCF803006CFC05 /* PSImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSImageView.swift; sourceTree = "<group>"; };
+		342248B926CCF884006CFC05 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		342248BB26CCF8F0006CFC05 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		342248C026CCFD36006CFC05 /* PSTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSTitleLabel.swift; sourceTree = "<group>"; };
+		342248C226CCFED2006CFC05 /* PSBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSBodyLabel.swift; sourceTree = "<group>"; };
+		342248C426CD239D006CFC05 /* PSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSError.swift; sourceTree = "<group>"; };
+		342248C626CD2485006CFC05 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		342248CA26CD4AAF006CFC05 /* PSStarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSStarButton.swift; sourceTree = "<group>"; };
+		342248CD26CD5382006CFC05 /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
+		342248CF26CD53A1006CFC05 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		342248D926CD54C8006CFC05 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		342248DD26CD5527006CFC05 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		342248E026CD5DA3006CFC05 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		342248E326CD5E6E006CFC05 /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
+		342248E526CD5EE0006CFC05 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		342248E726CD88FE006CFC05 /* String + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + ext.swift"; sourceTree = "<group>"; };
+		342248E926CE11D0006CFC05 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		342248EB26CE24A6006CFC05 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		342248ED26CE24EF006CFC05 /* PSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSButton.swift; sourceTree = "<group>"; };
+		342248EF26CE25B2006CFC05 /* UIViewController + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + ext.swift"; sourceTree = "<group>"; };
+		342248F126CE25DD006CFC05 /* PSAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSAlertVC.swift; sourceTree = "<group>"; };
+		342248F326CE260A006CFC05 /* PSContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSContainerView.swift; sourceTree = "<group>"; };
+		342248F626CE2878006CFC05 /* SPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTextField.swift; sourceTree = "<group>"; };
+		342248F826CE402C006CFC05 /* PSWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +106,160 @@
 		3422489B26CCCD4A006CFC05 /* Pecode Software Test Task */ = {
 			isa = PBXGroup;
 			children = (
-				3422489C26CCCD4A006CFC05 /* AppDelegate.swift */,
-				3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */,
-				342248A026CCCD4A006CFC05 /* ViewController.swift */,
-				342248A226CCCD4A006CFC05 /* Main.storyboard */,
-				342248A826CCCD4B006CFC05 /* Assets.xcassets */,
-				342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */,
-				342248AD26CCCD4B006CFC05 /* Info.plist */,
+				342248D526CD5415006CFC05 /* Managers */,
+				342248D226CD53E7006CFC05 /* Extensions */,
+				342248D126CD53D9006CFC05 /* Utilities */,
+				342248CC26CD536C006CFC05 /* Model */,
+				342248BD26CCFD0E006CFC05 /* CustomViews */,
+				342248D326CD5403006CFC05 /* Screens */,
+				342248D426CD540D006CFC05 /* Cells */,
+				342248FA26CE59D5006CFC05 /* Support */,
 				342248A526CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld */,
+				342248AD26CCCD4B006CFC05 /* Info.plist */,
 			);
 			path = "Pecode Software Test Task";
+			sourceTree = "<group>";
+		};
+		342248BD26CCFD0E006CFC05 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				342248F526CE2868006CFC05 /* TextFields */,
+				342248E226CD5E63006CFC05 /* ViewControllers */,
+				342248DF26CD5D97006CFC05 /* Views */,
+				342248D826CD54C8006CFC05 /* TabBarController */,
+				342248C826CD4A9E006CFC05 /* Buttons */,
+				342248BF26CCFD20006CFC05 /* Labels */,
+				342248BE26CCFD18006CFC05 /* ImageViews */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		342248BE26CCFD18006CFC05 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				342248B526CCF803006CFC05 /* PSImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		342248BF26CCFD20006CFC05 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				342248C026CCFD36006CFC05 /* PSTitleLabel.swift */,
+				342248C226CCFED2006CFC05 /* PSBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		342248C826CD4A9E006CFC05 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				342248CA26CD4AAF006CFC05 /* PSStarButton.swift */,
+				342248ED26CE24EF006CFC05 /* PSButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		342248CC26CD536C006CFC05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				342248CD26CD5382006CFC05 /* ArticlesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		342248D126CD53D9006CFC05 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				342248B926CCF884006CFC05 /* Images.swift */,
+				342248C426CD239D006CFC05 /* PSError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		342248D226CD53E7006CFC05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				342248B326CCF503006CFC05 /* UIView + ext.swift */,
+				342248C626CD2485006CFC05 /* Date + ext.swift */,
+				342248E726CD88FE006CFC05 /* String + ext.swift */,
+				342248EF26CE25B2006CFC05 /* UIViewController + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		342248D326CD5403006CFC05 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				342248A026CCCD4A006CFC05 /* ArticlesListVC.swift */,
+				342248DD26CD5527006CFC05 /* FavoritesVC.swift */,
+				342248EB26CE24A6006CFC05 /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		342248D426CD540D006CFC05 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				342248CF26CD53A1006CFC05 /* NewsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		342248D526CD5415006CFC05 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				342248BB26CCF8F0006CFC05 /* NetworkManager.swift */,
+				342248E926CE11D0006CFC05 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		342248D826CD54C8006CFC05 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				342248D926CD54C8006CFC05 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		342248DF26CD5D97006CFC05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				342248E026CD5DA3006CFC05 /* EmptyStateView.swift */,
+				342248F326CE260A006CFC05 /* PSContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		342248E226CD5E63006CFC05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				342248E326CD5E6E006CFC05 /* DataLoadingVC.swift */,
+				342248E526CD5EE0006CFC05 /* BaseVC.swift */,
+				342248F126CE25DD006CFC05 /* PSAlertVC.swift */,
+				342248F826CE402C006CFC05 /* PSWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		342248F526CE2868006CFC05 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				342248F626CE2878006CFC05 /* SPTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		342248FA26CE59D5006CFC05 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3422489E26CCCD4A006CFC05 /* SceneDelegate.swift */,
+				3422489C26CCCD4A006CFC05 /* AppDelegate.swift */,
+				342248A826CCCD4B006CFC05 /* Assets.xcassets */,
+				342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +321,6 @@
 			files = (
 				342248AC26CCCD4B006CFC05 /* LaunchScreen.storyboard in Resources */,
 				342248A926CCCD4B006CFC05 /* Assets.xcassets in Resources */,
-				342248A426CCCD4A006CFC05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +331,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342248A126CCCD4A006CFC05 /* ViewController.swift in Sources */,
+				342248EE26CE24EF006CFC05 /* PSButton.swift in Sources */,
+				342248E126CD5DA3006CFC05 /* EmptyStateView.swift in Sources */,
+				342248DA26CD54C8006CFC05 /* TabBarController.swift in Sources */,
+				342248F426CE260A006CFC05 /* PSContainerView.swift in Sources */,
+				342248CB26CD4AAF006CFC05 /* PSStarButton.swift in Sources */,
+				342248BA26CCF884006CFC05 /* Images.swift in Sources */,
+				342248C726CD2485006CFC05 /* Date + ext.swift in Sources */,
+				342248C126CCFD36006CFC05 /* PSTitleLabel.swift in Sources */,
+				342248D026CD53A1006CFC05 /* NewsCell.swift in Sources */,
+				342248DE26CD5527006CFC05 /* FavoritesVC.swift in Sources */,
+				342248B626CCF803006CFC05 /* PSImageView.swift in Sources */,
+				342248F226CE25DD006CFC05 /* PSAlertVC.swift in Sources */,
+				342248F726CE2878006CFC05 /* SPTextField.swift in Sources */,
+				342248A126CCCD4A006CFC05 /* ArticlesListVC.swift in Sources */,
+				342248EA26CE11D0006CFC05 /* CoreDataManager.swift in Sources */,
 				342248A726CCCD4A006CFC05 /* Pecode_Software_Test_Task.xcdatamodeld in Sources */,
+				342248E826CD88FE006CFC05 /* String + ext.swift in Sources */,
+				342248BC26CCF8F0006CFC05 /* NetworkManager.swift in Sources */,
+				342248E426CD5E6E006CFC05 /* DataLoadingVC.swift in Sources */,
+				342248CE26CD5382006CFC05 /* ArticlesModel.swift in Sources */,
+				342248F926CE402C006CFC05 /* PSWebViewController.swift in Sources */,
 				3422489D26CCCD4A006CFC05 /* AppDelegate.swift in Sources */,
+				342248EC26CE24A6006CFC05 /* SearchVC.swift in Sources */,
+				342248F026CE25B2006CFC05 /* UIViewController + ext.swift in Sources */,
 				3422489F26CCCD4A006CFC05 /* SceneDelegate.swift in Sources */,
+				342248C326CCFED2006CFC05 /* PSBodyLabel.swift in Sources */,
+				342248C526CD239D006CFC05 /* PSError.swift in Sources */,
+				342248B426CCF503006CFC05 /* UIView + ext.swift in Sources */,
+				342248E626CD5EE0006CFC05 /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		342248A226CCCD4A006CFC05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				342248A326CCCD4A006CFC05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		342248AA26CCCD4B006CFC05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34W5S52327;
 				INFOPLIST_FILE = "Pecode Software Test Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kavinskyi.Pecode-Software-Test-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34W5S52327;
 				INFOPLIST_FILE = "Pecode Software Test Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kavinskyi.Pecode-Software-Test-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
