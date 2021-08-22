@@ -51,7 +51,9 @@ class CoreDataManager {
         persistentContainer.viewContext.perform {
             do {
                 let result = try fetchRequest.execute()
-                let articles = result.map { Article(source: Source(id: "", name: $0.source ?? ""), author: $0.author, title: $0.title, description: $0.descriptionText, url: $0.url, urlToImage: $0.imageURL, publishedAt: $0.publishedAt, content: "", favorite: true)}
+
+                let articles = result.map { Article(id: UUID(uuidString: $0.articleId!)!, source: Source(id: "", name: $0.source ?? ""), author: $0.author, title: $0.title, description: $0.descriptionText, url: $0.url, urlToImage: $0.imageURL, publishedAt: $0.publishedAt, content: "", favorite: true)}
+
                 completed(.success(articles))
                 
             } catch {
@@ -64,11 +66,12 @@ class CoreDataManager {
     
     func deleteFromCoreData(_ article: Article) {
         let fetchRequest: NSFetchRequest<SavedArticle> = SavedArticle.fetchRequest()
-        fetchRequest.predicate = NSPredicate(format: "title == %@", article.title)
+        fetchRequest.predicate = NSPredicate(format: "articleId == %@", article.id.uuidString)
         fetchRequest.fetchLimit = 1
         
         do {
             if let result = try persistentContainer.viewContext.fetch(fetchRequest).first {
+
                 persistentContainer.viewContext.delete(result)
                 try persistentContainer.viewContext.save()
             }

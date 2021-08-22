@@ -14,7 +14,7 @@ struct Request: Codable {
 
 struct Article: Codable, Hashable {
     
-    let id          = UUID()
+    var id          = UUID()
     let source      : Source
     let author      : String
     let title       : String
@@ -50,7 +50,8 @@ struct Article: Codable, Hashable {
         content     = try values.decodeIfPresent(String.self, forKey: .content) ?? ""
     }
     
-    init(source: Source?, author: String?, title: String?, description: String?, url: String?, urlToImage: String?, publishedAt: String?, content: String?, favorite: Bool) {
+    init(id: UUID = UUID(), source: Source?, author: String?, title: String?, description: String?, url: String?, urlToImage: String?, publishedAt: String?, content: String?, favorite: Bool) {
+        self.id          = id
         self.source      = source ?? Source(id: "", name: "")
         self.author      = author ?? ""
         self.title       = title ?? ""

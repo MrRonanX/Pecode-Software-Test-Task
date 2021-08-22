@@ -28,22 +28,36 @@ final class FavoritesVC: BaseVC {
     
     
     func fetchFavorites() {
+        showLoadingView()
         CoreDataManager.shared.fetchFavorites { [weak self] result in
             guard let self = self else { return }
+            self.dismissLoadingView()
             switch result {
             case .success(let favorites):
-                if favorites.isEmpty {
-                    DispatchQueue.main.async {
-                        self.showEmptyStateView(with: "You've got no favorites yet 😕 \nGo add them from the main screen.", in: self.tableView)
-                        return
-                    }
-                }
-                self.articles = favorites
-                self.updateData(with: self.articles)
+                self.updateUI(with: favorites)
                 
             case .failure(let error):
                 self.presentSPAlertOnMainThread(title: "Bad Stuff Happened", message: error.localizedDescription, buttonTitle: "ok")
             }
         }
+    }
+    
+    func updateUI(with favorites: [Article]) {
+        if favorites.isEmpty {
+                self.showEmptyStateView(with: "You've got no favorites yet 😕 \nGo add them from the main screen.", in: self.tableView)
+                return
+            
+        } else {
+            self.removeEmptyState()
+            self.articles = favorites
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
+                self.updateData(with: self.articles)
+                self.view.bringSubviewToFront(self.tableView)
+            }
+        }
+        
+        
+        
     }
 }
