@@ -27,7 +27,7 @@ class CoreDataManager {
     
     func saveToCoreData(_ article: Article) {
         let cdArticle               = SavedArticle(context: persistentContainer.viewContext)
-        cdArticle.articleId         = article.id.uuidString
+        cdArticle.articleId         = article.id
         cdArticle.title             = article.title
         cdArticle.descriptionText   = article.description
         cdArticle.imageURL          = article.urlToImage
@@ -52,7 +52,7 @@ class CoreDataManager {
             do {
                 let result = try fetchRequest.execute()
 
-                let articles = result.map { Article(id: UUID(uuidString: $0.articleId!)!, source: Source(id: "", name: $0.source ?? ""), author: $0.author, title: $0.title, description: $0.descriptionText, url: $0.url, urlToImage: $0.imageURL, publishedAt: $0.publishedAt, content: "", favorite: true)}
+                let articles = result.map { Article(id: $0.articleId!, source: Source(id: "", name: $0.source ?? ""), author: $0.author, title: $0.title, description: $0.descriptionText, url: $0.url, urlToImage: $0.imageURL, publishedAt: $0.publishedAt, content: "", favorite: true)}
 
                 completed(.success(articles))
                 
